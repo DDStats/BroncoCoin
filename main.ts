@@ -40,8 +40,8 @@ async function main(){
     }
     const dataV2 = {
         name: "Bronco token coin",
-        symbol: "BRCO",
-        uri: "https://raw.githubusercontent.com/StantonR-ZA/ZarCoin/main/algocoin/token_metadata.json",
+        symbol: "$BRCO",
+        uri: "https://raw.githubusercontent.com/DDStats/metadata/main/Token_Metadata.json",
         // we don't need that
         sellerFeeBasisPoints: 500,
         creators: null,
