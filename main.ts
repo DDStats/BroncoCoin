@@ -18,7 +18,7 @@ async function main(){
     console.log("let's name some tokens!");
 
    
-    const myKeypair = loadWalletKey("/home/stant/stans-main-wallet/my-keypair.json");
+    const myKeypair = loadWalletKey("/home/iceking48/.config/solana/id.json");
     const mint = new web3.PublicKey("8iYxx48qbtV5e5G26rx6phq3sjAWSN9xqyBac8tbJEkK");
     const seed1 = Buffer.from(anchor.utils.bytes.utf8.encode("metadata"));
     const seed2 = Buffer.from(mpl.PROGRAM_ID.toBytes());
