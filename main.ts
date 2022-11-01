@@ -19,7 +19,7 @@ async function main(){
 
    
     const myKeypair = loadWalletKey("/home/iceking48/.config/solana/id.json");
-    const mint = new web3.PublicKey("8iYxx48qbtV5e5G26rx6phq3sjAWSN9xqyBac8tbJEkK");
+    const mint = new web3.PublicKey("GCMG9QDSsTp3apLhfwUipWh5oTKSeaixxMexePZuhwh");
     const seed1 = Buffer.from(anchor.utils.bytes.utf8.encode("metadata"));
     const seed2 = Buffer.from(mpl.PROGRAM_ID.toBytes());
     const seed3 = Buffer.from(mint.toBytes());
