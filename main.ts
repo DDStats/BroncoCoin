@@ -39,7 +39,7 @@ async function main(){
         updateAuthority: myKeypair.publicKey,
     }
     const dataV2 = {
-        name: "Bronco token coin",
+        name: "Bronco coin",
         symbol: "$BRCO",
         uri: "https://raw.githubusercontent.com/DDStats/metadata/main/Token_Metadata.json",
         // we don't need that
